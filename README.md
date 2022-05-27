@@ -19,4 +19,11 @@
 * Java ile Input/Output işlemlerinde kullanılan java.io paketine yeni nullInputStream(), nullOutputStream(), nullReader(), nullWriter(), readNBytes() metotları eklenmiştir.
 
 # JAVA 17 İLE GELEN YENİLİKLER
-  
+* Restore Always-Strict Floating-Point Semantics : Floating-point operasyonlarını sürekli katı hale getirir. Bu da her platformda floating-point hesaplamalarından aynı sonuçların alınmasını sağlar.
+* Enhanced pseudo-Random Number Generators : Sözde Rastgele Sayı Üreticileri (PRNG) için yeni arayüzler ve uygulamalar sağlar.
+* Strongly Encapsulated JDK Internals : JDK'nın tüm kritik olmayan dahili öğelerini güçlü bir şekilde kapsar.
+* Sealed Classes : Java programlama dilini sealed sınıflar ve arayüzlerle geliştirir. Sealed sınıflar ve arayüzler, diğer sınıfların veya arayüzlerin bunları genişletebileceğini veya uygulayabileceğini kısıtlar.
+* Foreign Functions & memory API(Incubator) : Java programlarının, Java çalışma zamanının dışındaki kod ve verileri yorumlayabileceği bir API sunar.
+* Vector API(Second Incubator) : Çalışma zamanında en uygun vektör talimatlarına güvenilir bir şekilde derlenen vektör hesaplamalarını ifade etmek için bir API sunar.
+* Context-Specific Deserialization Filters : Uygulamaların bağlama özel ve dinamik olarak seçilen seri durumdan çıkarma filtrelerini yapılandırmasına olanak tanır.
+ 
